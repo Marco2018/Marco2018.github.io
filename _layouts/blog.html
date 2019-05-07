@@ -13,7 +13,33 @@
     <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
     <link href='http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
-
+    <script type="text/javascript">
+      window.MathJax = {
+        messageStyle: "none",
+        showMathMenu: false,
+        showMathMenuMSIE: false,
+        jax: ["input/TeX", "output/HTML-CSS"],
+        "HTML-CSS": { linebreaks: { automatic: true }, fonts: [ "TeX" ] },
+        extensions: ["tex2jax.js"],
+        TeX: {
+          extensions: ["AMSmath.js", "AMSsymbols.js", "autoload-all.js"],
+        },
+        tex2jax: {
+          inlineMath: [['$', '$']],
+          displayMath: [['$$', '$$']],
+          processEscapes: true
+        }
+      };
+    
+      (function (d, script) {
+        script = d.createElement('script');
+        script.type = 'text/javascript';
+        script.async = true;
+        script.onload = function () {};
+        script.src = 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js';
+        d.getElementsByTagName('head')[0].appendChild(script);
+      }(document));
+    </script>
   </head>
 
   <body>
