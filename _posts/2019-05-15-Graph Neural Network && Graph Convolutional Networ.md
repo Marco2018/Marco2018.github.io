@@ -4,13 +4,13 @@
 
 GNN常见用例，判断某网络结构（分子结构）的类别：例如用来判断分子是否为毒药
 
-![](./1.png)
+![](./pics/1.png)
 
 
 
 GNN训练过程如下：
 
-![](./2.png)
+![](./pics/2.png)
 
 每个节点的初始特征为one hot向量，属于某个原子则对应的下标为1
 
@@ -18,9 +18,9 @@ GNN训练过程如下：
 
 迭代训练T次：
 
-![](./3.png)
+![](./pics/3.png)
 
-![](./4.png)
+![](./pics/4.png)
 
 
 
@@ -38,7 +38,7 @@ paper:[semi-supervised classification with graph convolutional networks](https:/
 
 
 
-![](./5.png)
+![](./pics/5.png)
 
 ##### 算法流程：
 

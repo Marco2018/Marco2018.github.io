@@ -8,7 +8,7 @@ The difficulty of graph data:
 
 1. complexity of graph data (each graph has a variable size of unordered nodes and each nodes has a different number of neighbors, causing some opeartions like convolution can not be done directly.)
 
-   ![](./Fig1.png)
+   ![](./pics/Fig1.png)
 
    
 
@@ -30,7 +30,7 @@ GNN is very close to graph embedding, which can be classified into three groups:
 
 Graph Neural Network can be classified into 
 
-![](./Fig3.png)
+![](./pics/Fig3.png)
 
 **Graph Convolution Network** generalize the operation of convolution from traditional data to graph data. The key is to learn a function f to generate a node's representation by aggregating its own feature $X_i$ and its neighbors' feature $X_j$ 
 
@@ -98,7 +98,7 @@ h_v^t=\sigma(W^t·aggregate(h_v^{t-1},\{h_u^{t-1},u \in N(v)\}))
 $$
 with t=2 GraphSage already achieves high performance.
 
-![](./Fig8.png)
+![](./pics/Fig8.png)
 
 
 
@@ -116,7 +116,7 @@ In terms of flexibility, spectral-based models limited to work on undirected gra
 
 **Graph Attention Networks** are similar to GCNs. The key difference is that graph attention networks employ attention mechanisms which **assign larger weights to more important nodes.**
 
-![](./Fig6.png)
+![](./pics/Fig6.png)
 
 
 
@@ -178,9 +178,9 @@ $\phi_o(),\phi_v()$ is denote feedforward neural networks and $g_i^k$ is the att
 
 克罗内克乘积 Kronecker$\bigotimes$
 
-![](./krone1.png)
+![](./pics/krone1.png)
 
-![](./krone2.png)
+![](./pics/krone2.png)
 
 
 
@@ -256,7 +256,7 @@ $$
 
 **Graph Generative Networks** 
 
-![](./GGN.png)
+![](./pics/GGN.png)
 
 The goal of graph generative networks is to generate graphs given an observed set of graphs. 
 
